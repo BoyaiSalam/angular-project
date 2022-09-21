@@ -1,0 +1,9 @@
+
+
+.bg {
+    background: url("https://images.pexels.com/photos/34088/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+  }
+ 

@@ -1,0 +1,24 @@
+
+.bg {
+    background: url("https://images.pexels.com/photos/34088/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 8vh;
+    background-size: cover;
+    background-position: center;
+  }
+.nav-item a{
+    color:white;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 10px 35px;
+    
+}
+.nav-item a:hover{
+    color:rgb(112, 252, 210);
+}
+.bg:after {
+    position: relative;
+    content: "";
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }

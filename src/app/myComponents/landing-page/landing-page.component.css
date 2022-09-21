@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+ .bg{
+  background: url("https://cdn.pixabay.com/photo/2014/12/27/15/40/office-581131_960_720.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content h4{
+  margin-top:40%; 
+  font-weight:300;
+  font-size: 48px;
+  color: #0ec57c;
+  
+}
+h5{ 
+  padding:0px 0px 0px 100px;
+  font-weight:300;
+  font-size: 48px;
+  color: #0ec57c;
+  margin-bottom: 40px;
+}
+
+ .login-btn {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1em 3.3em 1em;
+  border-radius: 15px;
+  margin: 8px 8px 8px 32px;
+  display:flex;
+  font-weight: 700;
+  font-size: 1em;
+  color:white;
+  text-align: center;
+  text-decoration: none;
+}
+.red {
+  background-color: #b73b3b;
+}
+.red:hover{
+  background-color:#d82b2b;
+}

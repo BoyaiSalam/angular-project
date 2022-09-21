@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signup": [
+    {
+      "name": "Boyai Salam",
+      "mobile": "1234567890",
+      "email": "boyaisalam22@gmail.com",
+      "password": "boyai123",
+      "confirm_password": "boyai123",
+      "id": 1
+    },
+    {
+      "name": "BOYAI SALAM",
+      "mobile": "+917005106087",
+      "email": "1805006cse@cit.edu.in",
+      "password": "Amp@6273086",
+      "confirm_password": "Amp@6273086",
+      "id": 2
+    }
+    
+  ],
+  "login": [],
+  "todo list":[],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

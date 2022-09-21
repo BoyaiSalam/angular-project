@@ -1,0 +1,63 @@
+.bg {
+  background: url("https://images.pexels.com/photos/34088/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.bg:after {
+  position: absolute;
+  content: "";
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.card{
+  z-index: 1;
+  margin-top:15px;
+  border:1px solid blue;
+  width:550px;
+  padding:45px;
+  position:absolute;
+  top:15%;
+  left:32%;
+  background-color:rgba(245, 245, 245, 1);
+  opacity: .9;
+  
+}
+.pass {
+  font-size: 15px;
+  color:#3498db;
+  font-family: "Poppins", sans-serif;
+}
+.pass a {
+  color: rgb(69, 166, 168);
+  text-decoration: none;
+}
+.pass a:hover {
+  text-decoration: underline;
+}
+.signup {
+  margin-top:5%;
+  font-size: 16px;
+  color:rgb(69, 166, 168);
+  font-family: "Poppins", sans-serif;
+}
+.signup a {
+  color: rgb(69, 166, 168);
+  text-decoration: none;
+}
+.signup a:hover {
+  text-decoration: underline;
+}
+.btn{
+  width:30%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(69, 166, 168);
+  color:white;
+  margin-left: 34%;
+  border-radius:20px;
+}
+.btn:hover{
+  background-color: rgb(34, 216, 216);
+}

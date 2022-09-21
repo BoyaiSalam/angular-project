@@ -1,0 +1,31 @@
+nav{
+    z-index:1;
+    position:fixed;
+    flex: 1;
+    margin-left: 5%;
+    width: 100%;
+  } 
+.nav-item a{
+  color:white;
+  font-size: 18px;
+  margin-top: 16px;
+  padding: 0px 35px;
+}
+.nav-item a:hover{
+  color:rgb(112, 252, 210);
+}
+.dropdown-menu a{
+  color:black;
+}
+.dropdown-menu a:hover{
+  color:rgb(20, 141, 160);
+}
+
+.logout-btn{
+  width:100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(192, 62, 47);
+  color:white;
+  margin-left: 34%;
+  border-radius:20px;
+}

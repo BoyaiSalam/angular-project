@@ -1,0 +1,38 @@
+<!-- <p>login works!</p> -->
+<div class="cointainer">
+	<div class="bg">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card">
+					<div class="text-center">
+						<h2 class="">Login to your Account</h2>
+						<h5>Feel free to log in</h5>
+						<hr>						
+					</div>
+					<form [formGroup]="loginForm" (ngSubmit)="logIn()">
+						<div class="mb-3 my-2">
+							<label for="email" class="form-label">Email address</label>
+							<input formContromName="email" type="email" class="form-control" id="email"
+							placeholder="Enter your email" autocomplete="off">
+							
+							<span class="text-danger" *ngIf="loginForm.controls['email'].dirty && loginForm.hasError('required','email')" > *Email is Required </span>
+						</div>
+						<div class="mb-3">
+							<label for="pwd" class="form-label">Password</label>
+							<input formContromName="password" type="password" class="form-control" id="pwd" placeholder="Enter your password" autocomplete="off">
+							<span class="text-danger" *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required','password')" > *Password is Required </span>
+						</div>
+						<div class="pass my-3">
+							<a routerLink="#">Forgot Password ?</a>
+						</div>
+						   <button type="submit" class="btn">Login</button>
+			
+						<div class="signup text-center">Don't have account ?
+							<a routerLink="/signup">Click to Sign up</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,43 @@
+
+<!-- <p>login works!</p> -->
+<div class="cointainer">
+	<div class="bg">
+        
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card">
+					<div class="text-center">
+						<h2>Register a new Account</h2>
+						
+						<hr>						
+					</div>
+					<form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                        <div class="mb-3">
+							<label for="name" class="form-label">Name</label>
+							<input required formControlName="name" type="text" class="form-control" id="name"
+								placeholder="Enter your name" >
+                        </div>
+						<div class="mb-3">
+							<label for="mobile" class="form-label">Mobile</label>
+							<input formControlName="mobile" type="mobile" class="form-control" id="mobile" placeholder="Enter your mobile number">
+						</div>
+                        <div class="mb-3">
+							<label for="email" class="form-label">Email address</label>
+							<input required formControlName="email" type="email" class="form-control" id="email" placeholder="Enter your email" >
+							
+						
+						</div>
+						<div class="mb-3">
+							<label for="password" class="form-label">Password</label>
+							<input formControlName="password" type="password" class="form-control" id="password" placeholder="Enter your password">
+						</div>	
+                        
+						<button type="submit" class="btn" >Sign up</button>
+					</form>
+					<div class="login text-center">Already Member ?<a routerLink="/login">Click to Login</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
